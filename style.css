@@ -1,0 +1,38 @@
+.todoContainer {
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoInput {
+    padding:5px;
+    width:300px;
+}
+
+.todoInput::placeholder {
+    color: green;
+    font-size:12px;
+}
+
+.todoBtn {
+    padding:5px;
+    width: 70px;
+    background: teal;
+    color:white;
+    margin-left: 10px;
+}
+
+.todoListContainer {
+    position: relative;
+    left:250px;
+    width: 1000px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}
+
+li {
+    list-style: none;
+}
